@@ -35,11 +35,8 @@ with st.expander('**About this project**'):
   st.markdown('**Project Description**')
   st.info('PowerCo is a major gas and electricity utility that supplies to small and medium sized enterprises. As a data scientist I am willing to help PowerCo diagnose why it’s customers are churning by analysing data and making effective predictions. This client states that price sensitivity might be the reason why customers leave. In the following analysis, we will verify this hypothesis in order to provide PowerCo with suitable answers')
 
-  st.markdown('**What can this app do?**')
-  st.info('This app')
-
-  st.markdown('**How to use the app?**')
-  st.warning('To engage with the app, go to the sidebar and 1. Select a data set and 2. Adjust the model parameters by adjusting the various slider widgets. As a result, this would initiate the ML model building process, display the model results as well as allowing users to download the generated models and accompanying data.')
+  # st.markdown('**How to use the app?**')
+  # st.warning('Please start by loading the data as specified below. Then you ca')
   st.markdown('**Data sets**')
   st.code('''- Client data set : customer historical data such as usage, sign up date, forecasted usage etc.
 - Price data set : historical pricing data such as variable and fixed pricing data etc.
